@@ -1,0 +1,22 @@
+{
+  "name": "atmofacts-nextjs",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "geotiff": "^3.0.3",
+    "gray-matter": "^4.0.3",
+    "leaflet": "^1.9.4",
+    "next": "^15.0.0",
+    "plotly.js-dist-min": "^3.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
+  }
+}
