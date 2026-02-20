@@ -25,7 +25,7 @@ const highlights = [
   {
     title: 'Precision in every second',
     body:
-      'Eddy covariance captures thousands of measurements every second. FluxMapper™ treats each of those data points as a pixel in time, revealing how gases move across your landscape.'
+      'Eddy covariance captures thousands of measurements every second. FluxMapper™ traces each of those data points back to a pixel in space and time, revealing how gases move across your landscape.'
   },
   {
     title: 'Spatial intelligence for accountability',
@@ -35,7 +35,7 @@ const highlights = [
   {
     title: 'From raw data to real-world action',
     body:
-      'We fuse high-frequency molecular data with surface roughness, remote sensing and weather patterns to quantify fluxes at property and project scales.'
+      'FluxMapper can deliver defensible and actionable insights at property and project scales.'
   }
 ];
 
