@@ -1,5 +1,4 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": ".next",
-  "nodejs": "22.x"
+  "outputDirectory": ".next"
 }
