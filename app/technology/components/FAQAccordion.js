@@ -6,8 +6,8 @@ const faqs = [
   {
     id: 1,
     category: 'FluxMapper Basics',
-    question: 'What is FluxMapper in LI-COR Cloud?',
-    answer: "AtmoFacts' FluxMapper turns standard eddy-covariance observations (including historical ≥10 Hz data) into spatially explicit flux maps with quantified uncertainty, delivered through LI-COR Cloud."
+    question: 'What is FluxMapper?',
+    answer: "AtmoFacts' FluxMapper is a software that turns standard eddy-covariance observations into spatially explicit flux maps with quantified uncertainty."
   },
   {
     id: 2,
@@ -37,25 +37,19 @@ const faqs = [
     id: 6,
     category: 'Outputs & Data',
     question: 'What do I get as an output?',
-    answer: 'Daily outputs are delivered as GeoTIFF layers (48 half-hourly layers per day), accessible via LI-COR Cloud visualization and API. Outputs are available as GeoTIFFs for offline analysis and via API endpoints for custom dashboards and portals.'
+    answer: 'Daily outputs are delivered as GeoTIFF layers (48 half-hourly layers per day). Each pixel contains a flux time series with an associated uncertainty layer.'
   },
   {
     id: 7,
     category: 'Supported Capabilities',
-    question: 'What fluxes and environments are currently supported in LI-COR Cloud?',
-    answer: 'The initial LI-COR Cloud cohort release targets ecosystem and agricultural deployments, with fluxes including H (sensible heat), LE (latent energy), and CO₂/NEE. Additional configurations (e.g., urban) may become available later.'
+    question: 'What fluxes and environments are currently supported?',
+    answer: 'FluxMapper standard fluxes include H (sensible heat), LE (latent energy), and CO₂/NEE over ecosystem and terrestrial environments. Additional advanced configurations (e.g., urban, methane, aquatic landscapes, etc.) are available via AtmoFacts-direct projects and require additional consideration.'
   },
   {
     id: 8,
     category: 'Supported Capabilities',
     question: 'Does FluxMapper support methane (CH₄) right now?',
-    answer: 'The LI-COR Cloud cohort configuration is centered on CO₂, heat, and water first. Broader configurations (including CH₄) are expected as future expansions and can also be supported via AtmoFacts-direct projects.'
-  },
-  {
-    id: 9,
-    category: 'Access & Deployment',
-    question: 'Will FluxMapper only be available in LI-COR Cloud?',
-    answer: 'FluxMapper is launching as a Cloud-based module within LI-COR Cloud. The initial rollout focuses on Cloud delivery. Future provisioning methods may include EDGE or desktop/offline modules, but those are not part of the initial release.'
+    answer: 'Yes, please reach out to AtmoFacts directly for CH₄ capabilities. CH₄ is not part of the initial standard package but is available through AtmoFacts-direct projects with additional considerations.'
   },
   {
     id: 10,
