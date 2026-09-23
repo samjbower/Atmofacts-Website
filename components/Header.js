@@ -43,12 +43,12 @@ export default function Header() {
   return (
     <header className={`site-header ${scrolled ? 'is-solid' : 'is-transparent'}`}>
       <div className="page-container header-row">
-        <Link href="/" className="brand d-inline-flex align-items-center text-decoration-none">
+        <Link href="/" className="brand">
           <Image
             src="/pub-images/full-color-logo-FINAL.png"
             alt="AtmoFacts logo"
-            width={176}
-            height={42}
+            width={160}
+            height={38}
             priority
           />
         </Link>

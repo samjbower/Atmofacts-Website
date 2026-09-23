@@ -15,7 +15,8 @@ const schedule = [
         href: 'https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1973632'
       },
       {
-        title: 'BenchFlux: Scalable AI Benchmarks for Terrestrial Carbon Fluxes to Advance Research, Education, and Resource Management',
+        title:
+          'BenchFlux: Scalable AI Benchmarks for Terrestrial Carbon Fluxes to Advance Research, Education, and Resource Management',
         slot: 'Oral: Fri Dec 19 · 8:40 AM CST',
         location: 'Room 344-345',
         href: 'https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1997681'
@@ -47,26 +48,28 @@ export const metadata = {
 
 export default function SchedulePage() {
   return (
-    <section>
+    <section className="page-section" style={{ paddingBottom: 'clamp(3rem, 7vw, 5.5rem)' }}>
       <div className="page-container">
-        <div className="content-card mb-5">
-          <h1 className="section-title">AtmoFacts at AGU 2025</h1>
+        <div className="page-header">
+          <span className="eyebrow">Events</span>
+          <h1>AtmoFacts at AGU 2025</h1>
           <p>
-            Meet the team December 15-19 in New Orleans. Stop by our sessions to talk FluxMapper™, atmospheric benchmarks and upcoming product releases.
+            Meet the team December 15-19 in New Orleans. Stop by our sessions to talk FluxMapper&trade;,
+            atmospheric benchmarks, and upcoming product releases.
           </p>
         </div>
-        <div className="feature-grid">
+        <div className="schedule-grid">
           {schedule.map((block) => (
-            <article key={block.group} className="feature-card">
-              <h2 className="h5">{block.group}</h2>
-              <ul className="list-unstyled mt-3">
+            <article key={block.group} className="content-card">
+              <h2 style={{ fontSize: '1.2rem' }}>{block.group}</h2>
+              <ul className="schedule-list">
                 {block.sessions.map((session) => (
-                  <li key={session.title} className="mb-3">
-                    <a href={session.href} target="_blank" rel="noreferrer" className="fw-semibold d-block">
+                  <li key={session.title}>
+                    <a href={session.href} target="_blank" rel="noreferrer">
                       {session.title}
                     </a>
-                    <small className="d-block text-muted">{session.slot}</small>
-                    <small className="text-muted">{session.location}</small>
+                    <small>{session.slot}</small>
+                    <small>{session.location}</small>
                   </li>
                 ))}
               </ul>
