@@ -81,14 +81,14 @@ const teamMembers = [
     name: 'Dr. Stefan Metzger',
     title: 'Founder & CEO',
     image: '/images/stefan.jpg',
-    bio: 'Stefan spent the last decade leading the surface-atmosphere component of the US NSF National Ecological Observatory Network (NEON). He serves on AmeriFlux and FLUXNET committees and built FluxMapper from his PhD work to bring eddy covariance into everyday environmental intelligence.',
+    bio: 'Stefan bridges atmospheric science, entrepreneurship and technology transfer. He led surface-atmosphere research from field instrumentation to national infrastructures such as neonscience.org and now focuses on turning those insights into real-world environmental intelligence. Stefan is co-founder of carbondew.org and adjunct faculty at UW-Madison.',
     link: 'https://www.linkedin.com/in/stefan-metzger-ph-d-b835ab1b'
   },
   {
     name: 'Samuel J. Bower',
     title: 'Product Lead',
     image: '/images/sam.png',
-    bio: 'Sam brings geospatial experience from Colorado College and West Virginia University. He has published on environmental impacts of surface mining and now leads the FluxMapper pipeline, data visualization, and operational deployments.',
+    bio: 'Sam is passionate about the transfer of climate technology into commercial use for societal benefit. He studied geology at Colorado College and West Virginia University before joining AtmoFacts, where he began working closely with the FluxMapper technology to scale it. Sam currently works on customer projects and product design, with an emphasis on industry partnerships.',
     link: 'https://www.linkedin.com/in/sam-j-bower'
   },
   {
