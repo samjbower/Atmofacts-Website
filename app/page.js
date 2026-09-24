@@ -162,7 +162,7 @@ export default function Home() {
           <figure className="overview-figure">
             <Image
               className="img-desktop"
-              src="/images/websiteoverview.jpg"
+              src="/images/websiteoverviewv2.jpg"
               alt="A flux station in a farm landscape, and the FluxMap it produces on a laptop"
               width={1400}
               height={800}
